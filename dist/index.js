@@ -8,3 +8,8 @@ document.getElementById("btn-submit").addEventListener("click", () => {
     localStorage.setItem("daysDifference", daysDifference.toString());
     window.location.href = "../public/result.html";
 });
+window.onload = () => {
+    if (window.location.pathname === "/public/result.html") {
+        const daysDifference = localStorage.getItem("daysDifference") || "0";
+    }
+};
