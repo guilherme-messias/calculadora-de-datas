@@ -13,3 +13,6 @@ window.onload = () => {
         const daysDifference = localStorage.getItem("daysDifference") || "0";
     }
 };
+// TODO: implementar inclusão do resultado na página result.html
+// TODO: implementar botão copiar o valor quantidade de dias
+// TODO: implementar página inicial e result
