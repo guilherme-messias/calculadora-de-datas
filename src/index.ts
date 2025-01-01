@@ -4,5 +4,5 @@ import calculateDaysBetweenDates from "./calculateDaysBetweenDates";
   const startDate: string = (document.getElementById("startDate") as HTMLInputElement).value;
   const endDate: string = (document.getElementById("endDate") as HTMLInputElement).value;
 
-  calculateDaysBetweenDates(new Date(startDate), new Date(endDate));
+  const daysDifference: number = calculateDaysBetweenDates(new Date(startDate), new Date(endDate));
 });
