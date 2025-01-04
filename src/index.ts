@@ -12,5 +12,4 @@ import calculateDaysBetweenDates from "./calculateDaysBetweenDates";
 });
 
 
-// TODO: implementar botão copiar o valor quantidade de dias
 // TODO: implementar página inicial e result
