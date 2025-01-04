@@ -6,4 +6,3 @@ document.getElementById("btn-submit").addEventListener("click", () => {
     localStorage.setItem("daysDifference", daysDifference.toString());
     window.location.href = "../public/result.html";
 });
-// TODO: implementar página inicial e result

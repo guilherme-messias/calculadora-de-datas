@@ -10,6 +10,3 @@ import calculateDaysBetweenDates from "./calculateDaysBetweenDates";
 
   window.location.href = "../public/result.html";
 });
-
-
-// TODO: implementar página inicial e result
