@@ -13,6 +13,7 @@ import calculateDaysBetweenDates from "./calculateDaysBetweenDates";
 window.onload = () => {
   if (window.location.pathname === "/public/result.html") {
     const daysDifference: string = localStorage.getItem("daysDifference") || "0";
+    
   }
 };
 
