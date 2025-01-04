@@ -11,6 +11,8 @@ document.getElementById("btn-submit").addEventListener("click", () => {
 window.onload = () => {
     if (window.location.pathname === "/public/result.html") {
         const daysDifference = localStorage.getItem("daysDifference") || "0";
+        const divResult = document.getElementById("result");
+        divResult.innerHTML = `A diferença entre as datas é de ${daysDifference} dias`;
     }
 };
 // TODO: implementar inclusão do resultado na página result.html
