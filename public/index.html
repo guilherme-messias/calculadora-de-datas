@@ -14,10 +14,23 @@
       <h1>Calculando dias entre duas datas</h1>
     </header>
     <main>
-      <label for="startDate">Data Início</label>
-      <input type="date" id="startDate" name="startDate" required />
-      <label for="endDate">Data Fim</label>
-      <input type="date" id="endDate" name="endDate" required />
+      <div id="container-date">
+
+        <div class="date">
+
+          <label for="startDate">Data Início</label>
+          <br>
+          <input type="date" id="startDate" name="startDate" required />
+        </div>
+
+        <div class="date">
+
+          <label for="endDate">Data Fim</label>
+          <br>
+          <input type="date" id="endDate" name="endDate" required />
+        </div>
+
+      </div>
       <br /><br /><br />
       <input type="button" value="Calcular" id="btn-submit" class="btn btn-success"/>
     </main>
