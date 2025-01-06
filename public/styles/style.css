@@ -41,7 +41,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: var(--size-medium);
+  margin-top: var(--size-small);
+  font-size: var(--size-small);
 }
 
 #container-startDate {
@@ -62,3 +63,13 @@ a {
 a:hover {
   color: var(--color-secondary);
 }
+
+input [type = "date"] {
+  background-color: yellow;
+  width: var(--size-large);
+  padding: var(--size-small);
+}
+
+/* todo: entender porque não está puxando o estilo para os campos data */
+/* todo: finalizar estilização do botão */
+/* todo: estilizar página result */
