@@ -1,47 +1,16 @@
+:root {
+  --color-primary: ;
+  --color-secondary: ;
+  --color-tertiary: ;
+  --color-quaternary: ;
+  --color-quinary: ;
+  --color-senary: ;
+  --size-large: ;
+  --size-medium: ;
+  --size-small: ;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f0f0f0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-} 
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45vh;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}	
-
-main #container-date {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f0f0f0;
-}
-
-main .date {
-  width: 45%;
-}
-
-main .btn-submit {
-  margin-left: auto;
-  margin-right: 0;
-}
-
