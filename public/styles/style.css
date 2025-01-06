@@ -1,16 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap");
+
 :root {
-  --color-primary: ;
-  --color-secondary: ;
-  --color-tertiary: ;
-  --color-quaternary: ;
-  --color-quinary: ;
-  --color-senary: ;
-  --size-large: ;
-  --size-medium: ;
-  --size-small: ;
+  --color-primary: #2a6beb;
+  --color-secondary: #59b8eb;
+  --color-tertiary: #9873eb;
+  --color-quaternary: #4447eb;
+  --color-quinary: #b352eb;
+  --color-senary: #9294eb;
+  --size-large: 8rem;
+  --size-medium: 5rem;
+  --size-small: 2rem;
 }
 
 * {
   margin: 0;
   padding: 0;
+  font-family: "Koh Santepheap", serif;
 }
