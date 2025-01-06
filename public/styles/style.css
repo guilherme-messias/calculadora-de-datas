@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap");
 
 :root {
-  --color-primary: #2a6beb;
-  --color-secondary: #59b8eb;
+  --color-primary: #6a96ee;
+  --color-secondary: #7ccdf9;
   --color-tertiary: #fff;
   --color-quaternary: #4447eb;
   --color-quinary: #b352eb;
@@ -25,11 +25,33 @@ header {
   text-align: center;
 }
 
+main {
+  background-color: var(--color-secondary);
+  padding: var(--size-medium);
+}
+
 footer {
   background-color: var(--color-primary);
   color: var(--color-tertiary);
   padding: var(--size-medium);
   text-align: center;
+}
+
+#container-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--size-medium);
+}
+
+#container-startDate {
+  padding: var(--size-small);
+  margin-right: var(--size-large);
+}
+
+#container-endDate {
+  padding: var(--size-small);
+  margin-left: var(--size-large);
 }
 
 a {
