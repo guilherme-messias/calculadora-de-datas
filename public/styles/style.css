@@ -34,7 +34,7 @@ main {
 footer {
   background-color: var(--color-primary);
   color: var(--color-tertiary);
-  padding: var(--size-medium);
+  padding: var(--size-small);
   text-align: center;
 }
 
