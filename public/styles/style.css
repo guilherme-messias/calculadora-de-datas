@@ -28,6 +28,7 @@ header {
 main {
   background-color: var(--color-secondary);
   padding: var(--size-medium);
+  text-align: center;
 }
 
 footer {
@@ -70,5 +71,11 @@ input[type="date"] {
   height: var(--size-small);
 }
 
-/* todo: finalizar estilização do botão */
+input[type="button"] {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  width: var(--size-large);
+  height: var(--size-small);
+}
+
 /* todo: estilizar página result */
