@@ -64,14 +64,8 @@ a:hover {
   color: var(--color-secondary);
 }
 
-#endDate {
-  background-color: yellow;
-  width: var(--size-large);
-  height: var(--size-small);
-}
-
 input[type="date"] {
-  background-color: yellow;
+  background-color: var(--color-tertiary);
   width: var(--size-large);
   height: var(--size-small);
 }
