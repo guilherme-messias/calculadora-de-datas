@@ -56,6 +56,10 @@ footer {
   margin-left: var(--size-large);
 }
 
+#result {
+  padding: var(--size-small);
+}
+
 a {
   color: var(--color-tertiary);
   text-decoration: none;
@@ -63,6 +67,14 @@ a {
 
 a:hover {
   color: var(--color-secondary);
+}
+
+#mainPageLink {
+  background-color: var(--color-secondary);
+}
+
+#mainPageLink:hover {
+  color: var(--color-primary);
 }
 
 input[type="date"] {
