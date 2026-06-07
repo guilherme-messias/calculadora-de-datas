@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculando dias entre duas datas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/style.css" />
     <script src="../dist/index.js" type="module" defer></script>
   </head>
@@ -12,25 +15,17 @@
       <h1>Calculando Dias Entre Duas Datas</h1>
     </header>
     <main>
-      <div id="container-date">
-
-        <div id="container-startDate">
-
+      <section id="container-date" aria-label="Calculadora de datas">
+        <div id="container-startDate" class="field-group">
           <label for="startDate">Data Início</label>
-          <br>
           <input type="date" id="startDate" name="startDate" required />
         </div>
-
-        <div id="container-endDate">
-
+        <div id="container-endDate" class="field-group">
           <label for="endDate">Data Fim</label>
-          <br>
           <input type="date" id="endDate" name="endDate" required />
         </div>
-
-      </div>
-      <br /><br /><br />
-      <input type="button" value="Calcular" id="btn-submit" class="btn btn-success"/>
+      </section>
+      <button type="button" id="btn-submit" class="btn btn-primary">Calcular</button>
     </main>
     <footer>
       <p>Autor: Guilherme Messias</p>

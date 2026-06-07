@@ -1,90 +1,166 @@
-@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap");
-
 :root {
-  --color-primary: #6a96ee;
-  --color-secondary: #7ccdf9;
-  --color-tertiary: #fff;
-  --color-quaternary: #4447eb;
-  --color-quinary: #b352eb;
-  --color-senary: #9294eb;
-  --size-large: 8rem;
-  --size-medium: 5rem;
-  --size-small: 2rem;
+  --color-accent: #3730a3;
+  --color-text: #1a1a1a;
+  --color-background: #f7f6f3;
+  --radius: 8px;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Koh Santepheap", serif;
-  background-color: var(--color-primary);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Inter", system-ui, sans-serif;
+  line-height: 1.5;
 }
 
 header {
-  color: var(--color-tertiary);
-  padding: 3rem;
+  padding: 2rem 1rem 0;
   text-align: center;
+}
+
+header h1 {
+  color: var(--color-text);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 main {
-  background-color: var(--color-secondary);
-  padding: var(--size-small);
-  text-align: center;
+  padding: 1rem;
 }
 
 footer {
-  background-color: var(--color-primary);
-  color: var(--color-tertiary);
-  padding: var(--size-small);
+  color: #9ca3af;
+  margin-top: 4rem;
+  padding: 1.5rem 1rem 0;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #e5e7eb;
   text-align: center;
+  font-size: 0.8125rem;
+}
+
+footer p + p {
+  margin-top: 0.35rem;
+}
+
+footer a {
+  color: #6b7280;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 #container-date {
+  max-width: 480px;
+  margin: 4rem auto 0;
+  padding: 2rem;
+  border-radius: var(--radius);
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: var(--size-small);
-  font-size: var(--size-small);
+  gap: 1.5rem;
 }
 
-#container-startDate {
-  padding: var(--size-small);
-  margin-right: var(--size-large);
+.field-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
 }
 
-#container-endDate {
-  padding: var(--size-small);
-  margin-left: var(--size-large);
+label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
 }
 
 #result {
-  padding: var(--size-small);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: center;
 }
 
 a {
-  color: var(--color-tertiary);
-  text-decoration: none;
+  color: #6b7280;
 }
 
 a:hover {
-  color: var(--color-secondary);
+  text-decoration: underline;
 }
 
-#mainPageLink {
-  background-color: var(--color-secondary);
+.btn,
+button {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.625rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-#mainPageLink:hover {
-  color: var(--color-primary);
+.btn-primary {
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #312e81;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-accent);
+  color: #fff;
 }
 
 input[type="date"] {
-  background-color: var(--color-tertiary);
-  width: var(--size-large);
-  height: var(--size-small);
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 0.9375rem;
+  color: var(--color-text);
 }
 
-input[type="button"] {
-  color: var(--color-tertiary);
-  width: var(--size-large);
-  height: var(--size-small);
+input[type="date"]:focus {
+  outline: 2px solid var(--color-accent);
+  border-color: transparent;
+}
+
+.result-card {
+  max-width: 480px;
+  margin: 4rem auto 0;
+  padding: 2rem;
+  border-radius: var(--radius);
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+#mainPageLink {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+#mainPageLink:hover {
+  color: #312e81;
 }
