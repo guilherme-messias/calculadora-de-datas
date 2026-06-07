@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES6",                          // Define o alvo como ES6
-    "module": "ES6",                          // Usa módulos ES6
-    "outDir": "./dist",                       // Diretório de saída para os arquivos compilados
-    "rootDir": "./src",                       // Diretório raiz dos arquivos de entrada
-    "strict": true,                           // Habilita verificações estritas
-    "esModuleInterop": true,                  // Habilita interoperabilidade com módulos ES6
-    "forceConsistentCasingInFileNames": true  // Força consistência de maiúsculas e minúsculas nos nomes dos arquivos
+    "target": "ES2015",
+    "module": "ES2015",
+    "outDir": "./public/dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "./src/**/*.ts"                           // Inclui todos os arquivos TypeScript no diretório src
